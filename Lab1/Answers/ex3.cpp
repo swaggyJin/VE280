@@ -32,7 +32,7 @@ int traceLaplacian(int weight[][50], int size){
         for(i=0;i<size;i++) {
             trace+=laplacian[i][i];
         }
-        return  trace;3
+        return  trace;
 
     }
 }
